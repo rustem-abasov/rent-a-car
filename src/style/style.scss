@@ -1,0 +1,5 @@
+$color-star: #f24422;
+$color-end: #bf0909;
+.gradient-bg {
+  background: linear-gradient(to right, $color-star, $color-end);
+}

@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 56px;
+  }
+  .logo {
+    width: 87px;
+    height: 33px;
+    object-fit: contain;
+  }
+  .btn {
+    padding: 10px 16px;
+    border-radius: 12px;
+    color: white;
+    width: 155px;
+    height: 44px;
+  }
+}
+
+.header-top {
+  width: 100%;
+}
+
+.left-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 80px;
+  align-items: center;
+}
+
+.middle-section {
+  .menu {
+    display: flex;
+    gap: 56px;
+  }
+  .menu a {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    gap: 560px;
+    text-decoration: none;
+    color: #0e0e0e;
+  }
+}
+
+.right-section {
+  display: flex;
+  max-width: 1280px;
+  height: 30px;
+  padding: 3px 80px;
+  justify-content: space-between;
+  align-items: center;
+
+  .contact-phone {
+    display: flex;
+    order: 3;
+    color: white;
+    align-items: center;
+  }
+  .social-box {
+    display: flex;
+    order: 1;
+    color: white;
+    gap: 12px;
+  }
+  .social-icon1 {
+    font-size: 16px;
+  }
+  .contact-number {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 8px;
+  }
+}

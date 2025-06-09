@@ -1,0 +1,326 @@
+.background {
+  background-image: url("../../assets/image.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 709px;
+  flex-shrink: 0;
+  background-size: cover;
+  background-position: center;
+  padding-left: 80px;
+  padding-top: 118px;
+  margin-bottom: 108px;
+
+  .slogan {
+    color: white;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 16px;
+    width: 550px;
+  }
+  .text-content {
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 36px;
+    width: 575px;
+  }
+  .btn {
+    padding: 10px 16px;
+    border-radius: 12px;
+    color: white;
+    width: 155px;
+    height: 44px;
+  }
+}
+
+//home container
+.container-text {
+  margin-bottom: 116px;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-section {
+  max-width: 1280px;
+
+  .head-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #f24422;
+  }
+  .about-content {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    color: #0e0e0e;
+    margin-bottom: 28px;
+  }
+  .about-desc {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    color: #505050;
+    margin-bottom: 56px;
+  }
+}
+
+.box {
+  gap: 40px;
+
+  .box-left {
+    display: flex;
+    width: 400px;
+    padding: 24px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid var(--gradient, #f24422);
+    background: var(--white, #fff);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    color: #0e0e0e;
+  }
+  .box-center {
+    display: flex;
+    width: 400px;
+    padding: 24px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    background: var(
+      --gradient,
+      linear-gradient(90deg, #f24422 0%, #bf0909 100%)
+    );
+    /* inner shadow */
+    box-shadow: -8px 0px 4px 0px rgba(255, 255, 255, 0.3) inset,
+      0px 6px 4px 0px rgba(255, 255, 255, 0.3) inset;
+  }
+  .box-right {
+    display: flex;
+    width: 400px;
+    padding: 24px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid var(--gradient, #f24422);
+    background: var(--white, #fff);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    color: #0e0e0e;
+  }
+}
+
+.rectangle {
+  width: 100%;
+  height: 531px;
+  background-image: url("../../assets/3049\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 116px;
+
+  // .day-exterior {
+  //   width: 609px;
+  //   height: 304px;
+  // }
+
+  .hero-text {
+    padding-bottom: 25px;
+  }
+
+  .hero-text h3 {
+    padding-left: 80px;
+    padding-top: 34px;
+    width: 400px;
+    height: 108px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+  }
+  .hero-text span {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    color: #f24422;
+  }
+}
+
+.arrow-left {
+  padding-left: 86px;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.icon-set {
+  display: flex;
+  align-items: center;
+  justify-content: cen;
+  gap: 24px;
+  padding-left: 98px;
+  padding-top: 34px;
+  .icon-left {
+    display: flex;
+    width: 62px;
+    height: 62px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(
+      --gradient,
+      linear-gradient(90deg, #f24422 0%, #bf0909 100%)
+    );
+    /* inner shadow */
+    box-shadow: -8px 0px 4px 0px rgba(255, 255, 255, 0.3) inset,
+      0px 6px 4px 0px rgba(255, 255, 255, 0.3) inset;
+  }
+  .icon-title {
+    width: 242px;
+    height: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+  }
+  .icon-text {
+    width: 242px;
+    height: 96px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+  }
+}
+
+.car-icon {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  position: absolute;
+  left: 75%;
+  bottom: 50%;
+  .car-title {
+    width: 218px;
+    height: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+  }
+  .car-text {
+    width: 215px;
+    height: 72px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+  }
+  .icon-right {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    width: 62px;
+    height: 62px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(
+      --gradient,
+      linear-gradient(90deg, #f24422 0%, #bf0909 100%)
+    );
+    /* inner shadow */
+    box-shadow: -8px 0px 4px 0px rgba(255, 255, 255, 0.3) inset,
+      0px 6px 4px 0px rgba(255, 255, 255, 0.3) inset;
+  }
+}
+
+.car-box {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: absolute;
+  left: 75%;
+  bottom: 15%;
+  .box-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    width: 62px;
+    height: 62px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(
+      --gradient,
+      linear-gradient(90deg, #f24422 0%, #bf0909 100%)
+    );
+    /* inner shadow */
+    box-shadow: -8px 0px 4px 0px rgba(255, 255, 255, 0.3) inset,
+      0px 6px 4px 0px rgba(255, 255, 255, 0.3) inset;
+  }
+
+  .box-title {
+    width: 257px;
+    height: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+  }
+  .box-text {
+    width: 257px;
+    height: 72px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+  }
+}
+
+.arrow-right {
+  position: absolute;
+  left: 75%;
+  bottom: 15%;
+  padding-top: 207px;
+  padding-bottom: 180px;
+}
