@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import CarCard from './CarCard'
+import CarCArd from './CarCard'
 import './CarList.scss'
 import carImg from "../../assets/Rectangle 22.png";
 
 
-const CarList = () => {
+const CarLIst = () => {
     const carData = [
         {
             name: 'Toyoto Carollo',
@@ -84,7 +84,7 @@ const CarList = () => {
 
     const [activeCategory, setActiveCategory] = useState('Hamısı');
 
-
+        
     const filtredCars = activeCategory === 'Hamısı' ? carData : carData.filter((car) => car.category === activeCategory)
 
     return (
@@ -93,18 +93,18 @@ const CarList = () => {
             <div className="tabs">
                 {categories.map((cat) => (
                     <button key={cat} className={activeCategory === cat ? 'active' : ''} onClick={() => setActiveCategory(cat)}>
-                        {cat === 'Bizness'
-                            ? 'Bizness Class'
-                            : cat === 'Premium'
-                                ? 'Premium Class'
-                                : cat === 'Suv'
-                                    ? 'Suv Model'
-                                    : cat === 'Sedan'
-                                        ? 'Sedan'
-                                        : cat === 'Ecanom'
-                                            ? 'Ecanom Class'
-                                            : 'Hamısı'
-                        }
+                        {cat === 'Bizness' 
+                        ? 'Bizness Class' 
+                        : cat === 'Premium' 
+                        ? 'Premium Class' 
+                        : cat === 'Suv' 
+                        ? 'Suv Model' 
+                        : cat === 'Sedan' 
+                        ? 'Sedan' 
+                        : cat === 'Ecanom' 
+                        ? 'Ecanom Class'
+                        : 'Hamısı'
+                    }
                     </button>
                 ))}
             </div>
@@ -114,7 +114,7 @@ const CarList = () => {
             <div className='car-list'>
                 {
                     filtredCars.map((car, index) => (
-                        <CarCard key={index} car={car} />
+                        <CarCArd key={index} car={car} />
                     ))
                 }
             </div>
@@ -126,4 +126,4 @@ const CarList = () => {
     )
 }
 
-export default CarList
+export default CarLIst

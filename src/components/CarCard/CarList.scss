@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
 .tabs {
   display: flex;
   gap: 12px;
@@ -5,24 +7,15 @@
   padding: 0 80px;
 
   button {
-    //     max-height: 36px;
-    //     padding: 5px 16px;
-    //     border-radius: 8px;
-    //     border: 1px solid #f24422;
-    //     font-family: DM Sans;
-    //     font-size: 16px;
-    //     font-weight: 400;
-    //     background-color: white;
-    //   }
-    display: flex;
-    height: 35px;
+    max-height: 36px;
     padding: 5px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
     border-radius: 8px;
-    border: 1px solid var(--gray, #dfdfdf);
-    background-color: white;
+    border: 1px solid #f24422;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+    background-image: none
   }
   .active {
     font-weight: 500;
@@ -32,4 +25,21 @@
 .car-page {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+@media (max-width: 1035px) {
+  .tabs {
+    overflow-x: scroll !important;
+    padding-left: 18px;
+
+  }
+  button {
+    padding: 5px 16px;
+    word-wrap:break-word;
+  }
+}
+
+
+::-webkit-scrollbar {
+  display: none;
 }
