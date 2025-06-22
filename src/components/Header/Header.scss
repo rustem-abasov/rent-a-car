@@ -3,11 +3,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
   .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 56px;
+    width: 1320px;
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+    margin: auto;
+    gap: 75px;
   }
   .logo {
     width: 87px;
@@ -51,11 +56,12 @@
 
 .right-section {
   display: flex;
-  max-width: 1280px;
+  max-width: 1320px;
   height: 30px;
   padding: 3px 80px;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
 
   .contact-phone {
     display: flex;

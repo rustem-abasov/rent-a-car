@@ -6,7 +6,6 @@
   flex-shrink: 0;
   background-size: cover;
   background-position: center;
-  padding-left: 80px;
   padding-top: 118px;
   margin-bottom: 108px;
 
@@ -36,12 +35,19 @@
     height: 44px;
   }
 }
+.text-home{
+  width: 1320px;
+  margin: auto;
+  padding: 0 80px;
+}
 
 //home container
 .container-text {
   margin-bottom: 116px;
-  padding-right: 80px;
-  padding-left: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .home-section {
   display: flex;
@@ -51,7 +57,12 @@
 }
 
 .about-section {
-  max-width: 1280px;
+  width: 1320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
 
   .head-text {
     font-size: 18px;
@@ -78,11 +89,13 @@
 }
 
 .box {
-  gap: 40px;
+  gap:60px;
+  display: flex;
+  justify-content: space-between;
 
   .box-left {
     display: flex;
-    width: 400px;
+    width: 350px;
     padding: 24px 16px;
     justify-content: center;
     align-items: center;
@@ -97,7 +110,7 @@
   }
   .box-center {
     display: flex;
-    width: 400px;
+    width: 350px;
     padding: 24px 16px;
     justify-content: center;
     align-items: center;
@@ -117,7 +130,7 @@
   }
   .box-right {
     display: flex;
-    width: 400px;
+    width: 350px;
     padding: 24px 16px;
     justify-content: center;
     align-items: center;
@@ -134,12 +147,11 @@
 
 .rectangle {
   width: 100%;
-  height: 531px;
-  background-image: url("../../assets/3049\ 1.png");
+  height: 700px;
+  background-image: url("../../assets/services1Eng.5544e7acbb78a6ca9be8.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
   margin-bottom: 116px;
 
   // .day-exterior {
